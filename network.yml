@@ -19,9 +19,9 @@ Resources:
                 Value: !Ref EnvironmentName
 
     InternetGateway: 
-    Type: AWS::EC2::InternetGateway
-    Properties: 
-      Tags: 
+      Type: AWS::EC2::InternetGateway
+      Properties: 
+        Tags:
           - Key: name
             Value: !Ref EnvironmentName
     InternetGatewayAttachment:
@@ -39,7 +39,7 @@ Resources:
         MapPublicIpOnLaunch: true
         Tags: 
           - Key: Name 
-          Value: !Sub ${EnvironmentName} Public Subnet (AZ1)
+            Value: !Sub ${EnvironmentName} Public Subnet (AZ1)
     PublicSubnet2:
       Type: AWS::EC2::Subnet
       Properties:
