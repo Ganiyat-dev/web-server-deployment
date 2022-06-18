@@ -1,6 +1,9 @@
 # web-server-deployment
 This project deploy web servers for a highly available web app using CloudFormation. The scripting code creates and deploys the infrastructure and application for an Instagram-like app from the ground up. By deploying the networking components, followed by servers, security roles and software
+
 ## below is the link to the infrastructure diagram
+![Udagram Infrastructure Architecture](https://user-images.githubusercontent.com/60348108/174415448-704381ba-c374-4f4b-963d-3ddd850716b1.png)
+
 
 ## Network Stack Creation
 ![networkStack](https://user-images.githubusercontent.com/60348108/174414741-f1811018-fc96-46b6-948b-449b05ff9e49.png)
