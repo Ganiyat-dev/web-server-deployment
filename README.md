@@ -24,5 +24,5 @@
 ## Load Balancer DNS
 ![Load balancer](https://user-images.githubusercontent.com/60348108/174414754-ca17c822-c734-48a6-a220-8f2cd05d767d.png)
 
-## Link to the web application: http://serve-webap-vfcmzsz3sqvs-2044524630.us-east-1.elb.amazonaws.com/
+## Link to the web application: http://serve-webap-ncvea2dypo8u-2038993242.us-east-1.elb.amazonaws.com/
 ![url works](https://user-images.githubusercontent.com/60348108/174414757-7a78b741-caa6-4db3-9eb0-5e500f3b7d65.png)
